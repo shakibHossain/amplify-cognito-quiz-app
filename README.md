@@ -9,7 +9,7 @@ This project was built using React.js, Open Trivia DB API, AWS Amplify, Cognito 
 5. Final Score: At the end of the quiz, users can view their total score and performance.
 
 ### Screencast
-TODO
+![Screencast](public/ui-screencast.gif?raw=true "Screencast")
 
 ### Demo
 Link to the demo: [https://main.d2ayke625if4f3.amplifyapp.com/](https://main.d2ayke625if4f3.amplifyapp.com/)
