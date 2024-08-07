@@ -18,11 +18,11 @@ async function getData() {
     const data = await response.json();
 
     const transformedResults = data.results.map((result) => {
-      const options = [result.correct_answer, ...result.incorrect_answers];
+      const options = [result.correct_answer, ...result.incorrect_answers].map(decode);
       return {
         question: decode(result.question),
         options: shuffleArray(options), // Shuffle options
-        answer: result.correct_answer,
+        answer: decode(result.correct_answer),
       };
     });
 

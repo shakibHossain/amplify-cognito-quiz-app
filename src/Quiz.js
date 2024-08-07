@@ -33,6 +33,7 @@ function Quiz() {
 
   return (
     <div className="quiz">
+      <div className="quiz-heading">Quiz App</div>
       {quizData === undefined ? (
         <div className="loading-message">
           Something went wrong. Please try again later.
